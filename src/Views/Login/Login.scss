@@ -1,0 +1,40 @@
+$green-color: #357b79;
+
+#login-page{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    .login-dialog{
+        max-width: 45rem;
+        margin: 0 auto;
+        border: 1px solid #ddd;
+        background-color: white;
+        border-radius: .25rem;
+        box-shadow: 0 1px 0 rgba(0,0,0,.25);
+        padding: 2rem 2rem;
+        margin-top: 8rem;
+        
+        .login-title{
+            height: 60px;
+            // background-color: #153e6f;
+            //background-color: $green-color;
+            line-height: 60px;
+            vertical-align: middle;
+            
+            font-size: 1.2rem;
+        }
+        .login-content{
+            input{
+                width: 480px;
+            }
+            button{
+                margin-top: 20px;
+                width: 300px;
+            }
+            .signin{
+                margin: 10px 0;
+            }
+        }
+    }
+}

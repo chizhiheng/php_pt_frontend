@@ -1,0 +1,53 @@
+1, engineer create task and assign to project lead/team lead;
+2, PL/TL gets the tasks and review them then assign to 3rd party;
+3, 
+
+
+
+
+
+admin
+manager
+TL
+member
+
+
+user role:
+super admin
+sub admin = manager 
+TL = 3rd party coordinator
+member
+
+1,1, task creator, 
+1.2, TL/PL,
+1.3, 3rd party coordinator,
+1.4, member,
+1.5, manager,
+
+2.1, 3rd task creator
+2.2, 3rd TL,
+2.3, 3rd member,
+2.4, 3rd manager,
+
+project role:
+1, multi projects
+
+
+
+task assign progress:
+creator create task, 
+TL/PL to pick the task up and assign to member or 3rd party TL
+ -> need a inform to someone like coordinator if the task assign to 3rd party, notification!!
+
+member assign task to QA till it done if not back to member.
+3rd party memeber assign task to QA till it done if not back to member.
+
+task attribute:
+task type:
+task status:
+    Create -> Inprogess -> QA -> Done
+
+    task working time?
+Project:
+sub tasks:
+title, desc, note, history

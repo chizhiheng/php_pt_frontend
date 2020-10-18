@@ -1,0 +1,49 @@
+#task-page{
+    
+    .page-content-main{
+
+        
+        
+    }
+    
+}
+
+.add-task-container{
+    text-align: center;
+    overflow-y: scroll !important;
+    width: 100% !important;
+    height: 100% !important;
+
+    .task-date-picker{
+        .MuiGrid-container{
+            display: inline !important;
+        }
+    }
+    .rdw-editor-wrapper{
+        width: 100%;
+    }
+    .project-input{
+        width: 80%;
+    }
+    .btn-area{
+        line-height: 80px;
+        vertical-align: middle;
+    }
+
+    .estimate_title{
+        margin-top: 2rem;
+        margin-right: 0.5rem;
+        display: inline-block;
+    }
+}
+
+.skip-task-container{
+    text-align: center;
+    width: 44% !important;
+    height: 34% !important;
+
+    textarea{
+        width: 100%;
+        height: 125px !important;
+    }
+}

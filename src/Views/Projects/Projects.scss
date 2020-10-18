@@ -1,0 +1,18 @@
+.add-project-container{
+    text-align: center;
+    width: 70%;
+
+    .project-input{
+        width: 80%;
+    }
+    .btn-area{
+        line-height: 80px;
+        vertical-align: middle;
+    }
+}
+
+#projects-page{
+    table tbody.MuiTableBody-root tr td:last-child div{
+        float: none;
+    }
+}

@@ -1,0 +1,24 @@
+.add-division-tooltip{
+    z-index: 10;
+
+    .add-division-tooltip-container{
+        text-align: center;
+        padding: 2rem;
+    
+        .division-input{
+            width: 80%;
+        }
+        .btn-area{
+            line-height: 80px;
+            vertical-align: middle;
+        }
+    }
+}
+
+
+#company-page{
+    
+    table tbody.MuiTableBody-root tr td:last-child div{
+        float: right;
+    }
+}

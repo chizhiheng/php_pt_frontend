@@ -1,0 +1,63 @@
+{
+    "data": [
+        { 
+          "label": "Dashboard", 
+          "Icon": "DashboardIcon",
+          "path": "/home" 
+        },
+        {
+          "label": "All Projects",
+          "Icon": "AssessmentIcon",
+          "path": "",
+          "items": [
+            { 
+              "label": "Project1", 
+              "Icon": "AssignmentIcon",
+              "path": "/projects/1"
+            },
+            { 
+              "label": "Project2", 
+              "Icon": "AssignmentIcon",
+              "path": "/projects/2"
+            }
+          ]
+        },{
+            "label": "My Projects",
+            "Icon": "BallotIcon",
+            "path": "",
+            "items": [
+              { 
+                "label": "My Project1", 
+                "Icon": "DescriptionIcon",
+                "path": "" 
+              },
+              { 
+                "label": "My Project2", 
+                "Icon": "DescriptionIcon",
+                "path": "" 
+              }
+            ]
+        },{
+          "label": "Settings",
+          "Icon": "SettingsIcon",
+          "path": "",
+          "items": [
+            { 
+              "label": "User Mgmt",
+              "Icon": "PersonAddIcon",
+              "path": ""
+            },
+            {
+              "label": "User Role Mgmt",
+              "Icon": "VpnKeyIcon",
+              "path": "" 
+            },            
+            {
+              "label": "Company Mgmt",
+              "Icon": "SupervisorAccountIcon",
+              "path": ""
+            }
+          ]
+        }
+      ]
+}

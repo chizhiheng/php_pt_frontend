@@ -1,0 +1,230 @@
+@media screen and (max-width: 960px){
+    // .left-nav{
+    //     width: 73px;
+    //     transition: width 1s;
+    // }
+    // .left-nav-container, .left-nav-container:before, .left-nav-container:after{
+    //     width: 73px !important;
+    //     transition: width 1s;
+        
+    // }
+    // .sys-name{
+    //     display: none;
+    // }
+}
+@media screen and (max-width: 740px){ /*<=768*/
+    // .left-nav{
+    //     display: none;
+    // }
+}
+@media screen and (min-width: 960px){/*>=960*/
+    // .left-nav{
+    //     width: 260px;
+    //     transition: width 1s;
+    // }
+    // .left-nav-container{
+    //     width: 260px;
+    //     height: 100%;
+    //     position: fixed;
+    // }
+    // .left-nav-container, .left-nav-container:before, .left-nav-container:after{
+    //     width: 260px !important;
+    //     transition: width 1s;
+        
+    // }
+    // .sys-name{
+    //     display: block;
+    // }
+}
+.isActive{
+    width: 260px !important;
+    transition: width 1s;
+
+    .left-nav-container, .left-nav-container:before, .left-nav-container:after, .nav-title{
+        width: 260px !important;
+        transition: width 1s;
+    }
+    .nav-title::after{
+        width: calc(260px - 2rem);
+        transition: width 1s;
+    }
+    .sys-name, .nav-items .MuiListItemText-root, .nav-items .has-sub-item-icon{
+        opacity: 1;
+        transition: all 2s ease-in;
+    }
+    .sub-nav{
+        padding-left: 1.2rem;
+        transition: all 1s ease-in;
+    }
+}
+.inActive{
+    width: 73px !important;
+    transition: width 1s;
+    
+    .left-nav-container, .left-nav-container:before, .left-nav-container:after, .nav-title{
+        width: 73px !important;
+        transition: width 1s;
+    }
+    .sys-name, .nav-items .MuiListItemText-root, .nav-items .has-sub-item-icon{
+        opacity: 0;
+        transition: all 0.4s linear;
+    }
+    .sub-nav{
+        padding-left: 0;
+        transition: all 1s ease-in;
+    }
+    .nav-title::after{
+        width: calc(73px - 2rem);
+        transition: width 1s;
+    }
+    .nav-title .nav-control{
+        right: -5px !important;
+    }
+    .sys-name{
+        opacity: 0;
+        transition: all 0.5s ease-in;
+    }
+}
+.left-nav{
+    background-color: white;
+    position: relative;
+    svg{
+        fill: white;
+    }
+    .left-nav-container{
+        overflow: hidden;
+        color: white;      
+        top: 0;
+        left: 0;
+        width: 260px;
+        border: none;
+        bottom: 0;
+        z-index: 1032;
+        position: fixed;
+        box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+        transition: width 1s;
+        overflow-x: hidden;
+
+        .nav-title{
+            overflow: hidden;
+            position: fixed;
+            text-align: center;
+            width: 100%;
+            height: 5rem;
+            padding: 1.3rem 0.3rem 1.3rem 1.3rem;
+            overflow-x: hidden;
+            .logo-icon, .sys-name{
+                float: left;
+            }
+            .logo-icon{
+                width: 1.25em;
+                height: 1.25em;
+            }
+            .sys-name{
+                display: block;
+                padding: 0.3rem 0 0 0.6rem;
+            }
+            .nav-control{
+                position: absolute;
+                top: 19px;
+                right: 5px;
+                svg{
+                    width: 0.8rem;
+                    height: 0.8rem;
+                }
+                .MuiIconButton-root{
+                    color: rgba(128, 128, 128, 0.78);
+                }
+                .MuiIconButton-root:hover{
+                    background-color: rgba(68, 68, 68, 0.24);
+                }
+            }
+        }
+        .nav-title::after{
+            top: 5rem;
+            left: 1rem;
+            bottom: 0;
+            height: 1px;
+            content: "";
+            position: fixed;
+            background-color: hsla(0,0%,100%,.3);
+        }
+        .nav-list{
+            height: 100%;
+            margin-top: 5rem;
+            // overflow: scroll;
+
+            .nav-items{
+                margin-bottom: 15rem;
+            }
+        }
+        .nav-items{
+            .MuiListItem-root.Mui-selected{
+                background-color: rgba(210, 210, 210, 0.13)
+            }
+            .MuiListItemIcon-root{
+                padding-left: 0.5rem;
+            }
+            .MuiListItem-button:hover{
+                background-color: rgba(148, 148, 148, 0.12)
+            }
+            .MuiListItem-button{
+                height: 4rem;
+            }
+            //for expansion panel only start
+            .MuiExpansionPanel-root{
+                background-color: transparent;
+                color: white;
+                box-shadow: none;
+            }
+            .MuiExpansionPanel-root::before{
+                background-color: transparent;
+            }
+            .MuiExpansionPanel-root.Mui-expanded{
+                margin: 0;
+            }
+            .MuiExpansionPanelSummary-content.Mui-expanded{
+                margin: 12px 0;
+            }
+            .MuiExpansionPanelSummary-root.Mui-expanded{
+                min-height: 48px;
+            }
+            .MuiExpansionPanelDetails-root{
+                padding: 0;
+                padding-right: 16px;
+                padding-left: 1.5rem;
+            }
+            p.MuiTypography-root{
+                display: flex;
+            }
+            //for expansion panel only stop
+        }
+    }
+    
+    .left-nav-container:before, .left-nav-container:after {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        display: block;
+        position: fixed;
+    }
+    .left-nav-container:after{
+        z-index: 2;
+    }
+    .left-nav-container:after {
+        opacity: .8;
+        background: #000;
+        z-index: -1;
+    }
+
+    .laf-nav-bg-img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("../../assets/images/leftnav-bg.jpg");
+    }
+    
+}

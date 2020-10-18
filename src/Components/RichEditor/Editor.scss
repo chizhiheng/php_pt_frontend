@@ -1,0 +1,28 @@
+.rich-editor{
+    height: 300px;
+    border: 1px solid #F1F1F1;
+    .DraftEditor-root{
+        height: 300px;
+        overflow-y: scroll;
+
+        .public-DraftEditorPlaceholder-root{
+            top: 12px;
+        }
+    }
+}
+
+.editor-toolbar{
+    border-bottom: 0;
+    padding-bottom: 0;
+
+    .rdw-embedded-modal{
+        height: 220px;
+    }
+    .rdw-link-modal{
+        height: 220px;
+        left: -110px;
+    }
+    .rdw-image-modal{
+        left: -110px;
+    }
+}

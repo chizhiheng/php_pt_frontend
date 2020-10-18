@@ -1,0 +1,43 @@
+#task-detail-page{
+    
+    .page-content-main{
+
+        > div{
+            box-shadow: none;
+            // margin: 0 !important;
+        }
+
+        .time-selector input{
+            width: 100%;
+        }
+        
+        .rich-editor{
+            height: 200px !important;
+            .DraftEditor-root{
+                height: 198px !important;
+            }
+        }
+        .MuiGrid-container{
+            flex-direction: column-reverse;
+            height: 32px;
+            width: 10rem;
+        }
+        
+
+    }
+    
+}
+.user-list-popover{
+            
+    div.MuiPopover-paper{
+        width: 15rem;
+        min-height: 10rem;
+        max-height: 15rem;
+        overflow-y: scroll;
+    }
+}
+
+.timing-container{
+    text-align: center;
+    width: 35% !important;
+}

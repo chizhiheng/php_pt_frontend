@@ -1,0 +1,45 @@
+#time-recorder-page{
+    
+    .page-content-main{
+
+        .time-bar-container{
+            width: 90%;
+            // height: calc(30px-100%);
+            height: 100%;
+            // border: 1px solid yellow;
+            top: -13px;
+            margin-left: 10%;
+            white-space: nowrap;
+
+            
+        }
+
+        .fixed-right{
+            position: fixed;
+            right: 0;
+            // width: 31rem;
+            width: 30%;
+        }
+        
+        // .MuiPickersStaticWrapper-staticWrapperRoot{
+        //     .MuiToolbar-root{
+        //         max-width: 22% !important;
+        //     }
+
+        //     .MuiPickersBasePicker-pickerView{
+        //         width: 78%;
+        //         max-width: 78% !important;
+
+        //         .MuiPickersCalendarHeader-dayLabel{
+        //             width: 13%;
+        //         }
+
+        //         .MuiPickersCalendar-week > div{
+        //             width: 13.5%;
+        //             text-align: center;
+        //         }
+        //     }
+        // }
+    }
+    
+}

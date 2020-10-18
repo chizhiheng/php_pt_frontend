@@ -1,0 +1,21 @@
+#user-page {
+    
+    .page-content-main{
+        
+        > div{
+            box-shadow: none;
+            margin: 0 !important;
+        }
+
+        table tbody.MuiTableBody-root tr td:last-child{
+            // width: 60px !important;
+            padding: 0 !important;
+        }
+
+    }
+}
+
+.update-user-container{
+    text-align: center;
+    width: 70%;
+}

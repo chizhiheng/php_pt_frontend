@@ -1,0 +1,26 @@
+import React, {useState, useEffect, useContext} from 'react';
+import { AppContext } from '../../Util/Store';
+import { useCookies } from 'react-cookie';
+import Header from '../../Components/Header/Header';
+import Loading from '../../Components/Loading/Loading';
+
+import './TaskDetail.scss';
+
+export default function TaskDetail(){
+    const { appState } = useContext(AppContext);
+    const [showLoading, setShowLoading] = useState(false);
+    const [cookies] = useCookies();
+    const user_info = JSON.parse(localStorage.getItem('user_info'));
+
+    return (
+        <div id="task-detail-page" className="page-content">
+            {showLoading ? <Loading /> : '' }
+            <Header showLogo={false} showIcons={true} />
+            <div className="page-content-container">
+                <div className="page-content-main">
+
+                </div>
+            </div>
+        </div>
+    );
+}

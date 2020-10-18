@@ -1,0 +1,47 @@
+.content-main{
+  display: flex;
+  height: 100%;
+  
+  .page-content{
+    flex: 1;
+    overflow: scroll;
+    width: 100%;
+
+    .page-content-container{
+      padding: 0.5rem;
+      height: calc(100% - 4.438rem);
+
+      .page-content-main{
+
+        tbody.MuiTableBody-root{
+          .MuiTableRow-root:hover {
+            background-color: #f3e5e5 !important;
+          }
+        }
+
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        padding: 1rem;
+        height: 100%;
+        overflow: scroll;
+
+        > div{
+          margin: 1rem 0;
+        }
+
+        input{
+          width: 80%;
+        }
+
+        .page-content-main-title{
+          padding: 1rem;
+          border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .MuiPaper-elevation2{
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}

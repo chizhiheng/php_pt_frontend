@@ -1,0 +1,434 @@
+{
+    "text": [
+        {
+            "language": "en-US",
+            "l_name": "English",
+            "site": {
+                "name": "ProOps"
+            },
+            "common": {
+                "my_profile": "My profile",
+                "logout": "Logout",
+                "empty_data": "No records to display",
+                "delete_confirm_text": "Are you sure?",
+                "filter_tooltip": "Filter",
+                "actions": "Actions",
+                "yes": "Yes",
+                "no": "No",
+                "ok": "OK",
+                "close": "Close",
+                "cancel": "Cancel",
+                "opps": "Opps",
+                "delete_user_first": "Can not delete. Remove user first.",
+                "delete_division_first": "Can not delete. Remove division first.",
+                "create": "Create",
+                "add": "Add",
+                "delete": "Delete",
+                "edit": "Edit",
+                "save": "Save",
+                "rows": "rows",
+                "search": "Search",
+                "update": "Update",
+                "remove": "Remove",
+                "here": "here",
+                "daily": "Daily",
+                "weekly": "Weekly",
+                "monthly": "Monthly",
+                "quarterly": "Quarterly",
+                "yearly": "Yearly",
+                "day": "Day",
+                "week": "Week",
+                "month": "Month",
+                "quarter": "Quarter",
+                "year": "Year",
+                "time": "Time" ,
+                "weekDays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "upload": "Upload",
+                "statistic": "Statistic",
+                "welcome": "Welcome"
+            },
+            "Login": {
+                "title": "Sign in with your ID",
+                "description": "Sign in with your email and password if you have a account.",
+                "user_name_label": "Your account ID (e.g. abcd@abcd.com)",
+                "password_label": "Password",
+                "user_name_incorrect_label": "Invalid account ID",
+                "password_incorrect_label": "Invalid password",
+                "sign_in": "Sign in"
+            },
+            "Home": {
+                "productivity": "Productivity",
+                "uitilization": "Uitilization",
+                "rejection_rate": "Rejection rate",
+                "your_project": "Your Project",
+                "open_tasks": "Open tasks",
+                "projects_manage": "Projects that yuo manage",
+                "overdue_task_by_today": "Overdue tasks by today",
+                "pending_tasks": "Pending tasks",
+                "pending_tasks_overdue": "Pending tasks overdue",
+                "project_indicators": "Project indicators"
+            },
+            "Users": {
+                "tab": {
+                    "user_list": "User list",
+                    "add_new_user": "Add new user"
+                },
+                "user_list_tab": {
+                    "table": {
+                        "table_name": "User list",
+                        "action_tooltip": "Refresh Data",
+                        "column": {
+                            "company_name":"Company name",
+                            "division_name": "Division name",
+                            "role_name": "Role name",
+                            "nickname": "Nickname",
+                            "email": "Email",
+                            "active": "Active"
+                        }
+                    },
+                    "update_user": "更新用户: "
+                },
+                "add_new_user_tab": {
+                    "email": "Email",
+                    "email_format_err_text": "Email format is incorrect",
+                    "email_id_existed_err_text": "Email ID already existed",
+                    "password": "User password",
+                    "password_err_text": "Password should more than 6 and use digits, letters or _",
+                    "nickname": "Nickname",
+                    "job_role": "Job role",
+                    "job_role_err_text": "Please select user role.",
+                    "is_active_user": "Is active user: ",
+                    "select_company": "Select company",
+                    "select_company_err_text": "Please select user company.",
+                    "select_division": "Select division",
+                    "select_division_err_text": "Please select user division."
+                }
+                
+            },
+            "Company": {
+                "table": {
+                    "table_name": "Company list",
+                    "add_division": "Add Division",
+                    "action_tooltip": "Refresh Data",
+                    "column": {
+                        "name": "Name",
+                        "description": "Description",
+                        "type": "Type"
+                    }
+                },
+                "company_name": "Company name",
+                "company_description": "Company description",
+                "create_division_title": "Create a new division for company:",
+                "division_name": "Division name",
+                "division_name_err_text": "Division name is empty",
+                "division_description": "Division description"
+            },
+            "Project": {
+                "table": {
+                    "table_name": "Project list",
+                    "add_project": "Create new project",
+                    "action_tooltip": "More",
+                    "column": {
+                        "project_name": "Project name",
+                        "company_name": "Company name",
+                        "division_name": "Division name",
+                        "date_created": "Created date"
+                    }
+                },
+                "create_project": "Create a new project",
+                "select_company": "Select company",
+                "select_company_err_text": "Please select company.",
+                "select_division": "Select division",
+                "select_division_err_text": "Please select division.",
+                "project_name": "Project name",
+                "project_name_err_text_empty": "Project name is empty.",
+                "project_name_err_text_duplicate": "Project name already in use."
+            },
+            "Task": {
+                "table": {
+                    "my_task_list": "My tasks",
+                    "table_name": "Task list",
+                    "add_task": "Create new task",
+                    "action_tooltip": "More",
+                    "column": {
+                        "task_name": "Task name",
+                        "project": "Project",
+                        "status": "Status",
+                        "estimate_working_hours": "Estimate hours",
+                        "task_owner": "Task owner",
+                        "date_created": "Date created",
+                        "start_date": "Start date",
+                        "end_date": "End Date",
+                        "task_complexity": "Complexity",
+                        "task_priority": "Priority"
+                    }
+                },
+                "tab": {
+                    "task_tab": "Task list",
+                    "timing_tab": "Working hours"
+                },
+                "skip_task": {
+                    "title": "Please tell us why you need to skip above tasks",
+                    "reason": "Reason",
+                    "error_text": "Please tell us your reasons"
+                },
+                "create_task": "Create a new task",
+                "task_name": "Task name",
+                "task_description": "Task description",
+                "task_status": "Task status",
+                "task_complexity": "Task complexity",
+                "task_priority": "Task priority",
+                "task_owner": "Task status",
+                "task_project": "Belonged project",
+                "estimate_working_hours": "Estimate hours",
+                "hours": "Hours",
+                "minutes": "Minutes",
+                "owner_err_text": "Please select owner",
+                "status_err_text": "Please select status",
+                "task_complexity_err_text": "Please select complexity level",
+                "task_priority_err_text": "please select priority level",
+                "belong_project_err_text": "Please select belonged project",
+                "task_name_err_text": "Please fill task name",
+                "task_created_by": "Task created by",
+                "task_unassigned": "Unassigned",
+                "assign_to_me": "Assign to me",
+                "reassign_task": "Reassign task",
+                "task_history": "History",
+                "start_working": "Start working time",
+                "stop_working": "Stop working time",
+                "task_comment": {
+                    "title": "Comments",
+                    "place_holder": "Leave your comments here",
+                    "error_text": "Please input your comment",
+                    "added_comment": "added a comment"
+                },
+                "start_date": "Start date",
+                "end_date": "End date",
+                "start_date_err_text": "The start date cannot be earlier than today",
+                "end_date_err_text": "The end date cannot be earlier than the start date",
+                "unstart_working_time_err_text": "Please set the start working time before ending the current task working time",
+                "unstoped_working_time_err_text": "There is another task you still working on, please stop working that one first",
+                "overlap_same_task_in_same_time_start_time_err_text": "Duplicate start time for current task. It begains at: ",
+                "overlap_same_task_in_same_time_stop_time_err_text": "Duplicate stop time for current task. It begains at: ",
+                "not_same_day": "The end time cannot be set to the day after the start time. It begains at: "
+            },
+            "TimeRecorder": {
+                "total_num_of_time": "The total number of time"
+            }
+        },
+        {
+            "language": "zh-CN",
+            "l_name": "中文",
+            "site": {
+                "name": "ProOps"
+            },
+            "common": {
+                "my_profile": "我的资料",
+                "logout": "注销",
+                "empty_data": "无记录显示",
+                "delete_confirm_text": "你确定吗?",
+                "filter_tooltip": "过滤器",
+                "actions": "操作",
+                "yes": "是",
+                "no": "否",
+                "ok": "确定",
+                "close": "关闭",
+                "cancel": "取消",
+                "opps": "哎呀",
+                "delete_user_first": "不能完成操作，先删除用户.",
+                "delete_division_first": "不能完成操作，先删除部门.",
+                "create": "创建",
+                "add": "添加",
+                "delete": "删除",
+                "edit": "编辑",
+                "save": "保存",
+                "rows": "行",
+                "search": "搜索",
+                "update": "更新",
+                "here": "这里",
+                "daily": "每天",
+                "weekly": "每周",
+                "monthly": "每月",
+                "quarterly": "每季度",
+                "yearly": "每年",
+                "day": "天",
+                "week": "周",
+                "month": "月",
+                "quarter": "季度",
+                "year": "年",
+                "time": "时间",
+                "weekDays": ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"],
+                "upload": "上传",
+                "statistic": "统计资料",
+                "welcome": "欢迎"
+            },
+            "Login": {
+                "title": "用你的账号登录",
+                "description": "如果你有帐户，用你的电子邮件和密码登录。",
+                "user_name_label": "您的账号(如abcd@abcd.com)",
+                "password_label": "密码",
+                "user_name_incorrect_label": "无效的帐户ID",
+                "password_incorrect_label": "无效的密码",
+                "sign_in": "登陆"
+            },
+            "Home": {
+                "productivity": "生产率",
+                "uitilization": "利用率",
+                "rejection_rate": "报废率",
+                "your_project": "你所在的项目",
+                "open_tasks": "开放的任务",
+                "projects_manage": "你管理的项目",
+                "overdue_task_by_today": "到今天已过期的任务",
+                "pending_tasks": "待解决的任务",
+                "pending_tasks_overdue": "已过期的待解决任务",
+                "project_indicators": "项目指标"
+            },
+            "Users": {
+                "tab": {
+                    "user_list": "用户列表",
+                    "add_new_user": "添加新用户"
+                },
+                "user_list_tab": {
+                    "table": {
+                        "table_name": "用户列表",
+                        "action_tooltip": "刷新数据",
+                        "column": {
+                            "company_name":"公司名称",
+                            "division_name": "部门名称",
+                            "role_name": "角色名",
+                            "nickname": "昵称",
+                            "email": "电子邮件",
+                            "active": "活跃用户"
+                        }
+                    },
+                    "update_user": "Update user: "
+                },
+                "add_new_user_tab": {
+                    "email": "电子邮件",
+                    "email_format_err_text": "电邮格式不正确",
+                    "email_id_existed_err_text": "电子邮件ID已经存在",
+                    "password": "用户密码",
+                    "password_err_text": "密码应大于6，并使用数字、字母或_",
+                    "nickname": "昵称",
+                    "job_role": "工作角色",
+                    "job_role_err_text": "请选择用户角色.",
+                    "is_active_user": "活跃的用户: ",
+                    "select_company": "选择公司",
+                    "select_company_err_text": "请选择用户公司.",
+                    "select_division": "选择部门",
+                    "select_division_err_text": "请选择用户部门."
+                }
+            },
+            "Company": {
+                "table": {
+                    "table_name": "公司列表",
+                    "add_division": "添加部门",
+                    "action_tooltip": "刷新数据",
+                    "column": {
+                        "name": "名字",
+                        "description": "描述",
+                        "type": "类型"
+                    }
+                },
+                "company_name": "公司名称",
+                "company_description": "公司描述",
+                "create_division_title": "为公司创建一个新的部门:",
+                "division_name": "部门名称",
+                "division_name_err_text": "部门名称为空",
+                "division_description": "部门描述"
+            },
+            "Project": {
+                "table": {
+                    "table_name": "项目列表",
+                    "add_project": "创建新项目",
+                    "action_tooltip": "更多",
+                    "column": {
+                        "project_name": "项目名称",
+                        "company_name": "公司名称",
+                        "division_name": "部门名称",
+                        "date_created": "创建日期"
+                    }
+                },
+                "create_project": "创建一个新项目",
+                "select_company": "选择公司",
+                "select_company_err_text": "请选择公司。",
+                "select_division": "选择部门",
+                "select_division_err_text": "请选择部门。",
+                "project_name": "项目名称",
+                "project_name_err_text_empty": "项目名称为空。",
+                "project_name_err_text_duplicate": "项目名称已在使用中。"
+            },
+            "Task": {
+                "table": {
+                    "my_task_list": "我的任务",
+                    "table_name": "任务列表",
+                    "add_task": "创建新任务",
+                    "action_tooltip": "更多",
+                    "column": {
+                        "task_name": "任务名称",
+                        "project": "项目",
+                        "status": "状态",
+                        "estimate_working_hours": "预估时间",
+                        "task_owner": "任务所有者",
+                        "date_created": "创建日期",
+                        "start_date": "开始日期",
+                        "end_date": "结束日期",
+                        "task_complexity": "任务难易度",
+                        "task_priority": "任务优先级"
+                    }
+                },
+                "tab": {
+                    "task_tab": "任务列表",
+                    "timing_tab": "工作时长"
+                },
+                "skip_task": {
+                    "title": "请告诉我们为什么你需要跳过之前的任务",
+                    "reason": "理由",
+                    "error_text": "请告诉我们你的理由"
+                },
+                "create_task": "创建一个新任务",
+                "task_name": "任务名称",
+                "task_description": "任务描述",
+                "task_status": "任务状态",
+                "task_complexity": "任务难易度",
+                "task_priority": "任务优先级",
+                "task_owner": "任务所有者",
+                "task_project": "所属项目",
+                "estimate_working_hours": "预估时间",
+                "hours": "小时",
+                "minutes": "分钟",
+                "owner_err_text": "请选择所有人",
+                "status_err_text": "请选择状态",
+                "task_complexity_err_text": "请选择难易度",
+                "task_priority_err_text": "请选择优先级",
+                "belong_project_err_text": "请选择所属项目",
+                "task_name_err_text": "请填写任务名",
+                "task_created_by": "创建人",
+                "task_unassigned": "未分配",
+                "assign_to_me": "分给我",
+                "reassign_task": "重新分配任务",
+                "task_history": "历史记录",
+                "start_working": "开始工作时间",
+                "stop_working": "结束工作时间",
+                "task_comment": {
+                    "title": "留言",
+                    "place_holder": "在此处留言",
+                    "error_text": "请输入留言",
+                    "added_comment": "添加留言"
+                },
+                "start_date": "开始日期",
+                "end_date": "结束日期",
+                "start_date_err_text": "开始日期不能早于今天",
+                "end_date_err_text": "结束日期不能早于开始日期",
+                "unstart_working_time_err_text": "请先设置开始工作时间之后才可以结束当前任务工作时间",
+                "unstoped_working_time_err_text": "还有一个任务你还在做，请先结束之前的任务",
+                "overlap_same_task_in_same_time_start_time_err_text": "当前任务开始时间重复。设置时间是：",
+                "overlap_same_task_in_same_time_stop_time_err_text": "当前任务结束时间重复。设置时间是：",
+                "not_same_day": "结束时间不能设置成开始时间的第二天。任务开始时间是："
+            },
+            "TimeRecorder": {
+                "total_num_of_time": "总时间数"
+            }
+        }
+    ]
+}

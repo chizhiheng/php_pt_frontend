@@ -1,0 +1,29 @@
+#home-page{
+    
+    .page-content-main{
+     
+        .chart-item {
+            // border: 1px solid #eeeeee;
+            display: block;
+        }
+
+        .width-stand-half p{
+            margin-bottom: 2rem;
+        }
+
+        div.padding-left-right button{
+            box-shadow: none;
+            background-color: #fff;
+            border: 0;
+            cursor: pointer;
+        }
+        div.padding-left-right button:hover{
+            color: #90caf9;
+        }
+        .div-selector{
+            min-width: 10rem;
+            max-width: 15rem;
+        }
+    }
+    
+}
