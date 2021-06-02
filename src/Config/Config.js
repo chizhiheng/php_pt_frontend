@@ -1,5 +1,6 @@
 
-export const Host = '/proops/backend/api';
+// export const Host = '/proops/backend/api';
+export const Host = 'http://localhost/php_pt_backend/api/';
 export const GetByEmail = '/user/getByEmail/';
 export const GetByEmailPasswd = '/user/getByEmailPasswd/';
 export const GetMenuList = '/menu/getMenu/';
